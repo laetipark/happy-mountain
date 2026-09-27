@@ -1,0 +1,12 @@
+{
+  "name": "happy-mountain-web-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22.22.0" },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env.local src/index.mjs",
+    "test": "node --test",
+    "test:live": "node --env-file-if-exists=.env.local --test test/history.live.test.mjs"
+  }
+}

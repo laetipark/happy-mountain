@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="산등성이 — 주변 산, 날씨와 산불 경보 이력을 확인하세요.">
+  <meta name="theme-color" content="#254c38">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <title>산등성이</title>
+  <style>
+    html, body { margin: 0; width: 100%; height: 100%; background: #edf3e9; }
+    #loading { height: 100%; display: grid; place-content: center; text-align: center;
+      color: #254c38; font: 16px system-ui, sans-serif; }
+    #loading img { width: 96px; height: 96px; object-fit: contain; margin: 0 auto 16px; }
+  </style>
+</head>
+<body>
+  <div id="loading" role="status"><img src="favicon.png" alt=""><span>산등성이를 열고 있습니다…</span></div>
+  <noscript>산등성이 웹을 사용하려면 JavaScript를 켜 주세요.</noscript>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

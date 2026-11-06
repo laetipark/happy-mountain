@@ -1,6 +1,6 @@
 # 산등성이
 
-![산등성이 프로젝트 배너](docs/images/project-banner.png)
+![산등성이 아이콘과 프로젝트명을 배치한 소개 배너](docs/images/project-banner.png)
 
 Flutter 공통 앱은 [`mobile/`](mobile/README.md)에 있습니다. Android 개인 테스트용 APK, iOS 프로젝트, 브라우저용 웹판을 함께 관리합니다.
 
